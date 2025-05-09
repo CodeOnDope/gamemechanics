@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Mechanics 333 | Student Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .assets-note a {
+            color: white; /* Change link color to white */
+            text-decoration: underline; /* Optional: Add underline for better visibility */
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container nav-container">
+            <div class="left-section">
+                <a href="https://www.odu.edu/academics/programs/undergraduate/game-studies-design" target="_blank" class="university-info-link">
+                    <div class="university-info">
+                        <div>Old Dominion University,</div>
+                        <div>College of Arts & Letters,</div>
+                        <div>Interdisciplinary Studies Program</div>
+                    </div>
+                </a>
+            </div>
+            <div class="center-section">
+                <a href="#" class="logo"><i class="fas fa-gamepad"></i> GAME 333</a>
+            </div>
+            <div class="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#games" class="active">GAMES</a></li>
+                    <li><a href="#technologies">TECHNOLOGIES</a></li>
+                    <li><a href="#features">FEATURES</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#stats">STATS</a></li>
+                    <li><a href="https://www.odu.edu/academics/programs/undergraduate/game-studies-design">CONTACT</a></li>
+                </ul>
+            </div>
+            <button class="mobile-menu-button" aria-label="Open menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+    
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <button class="close-menu" aria-label="Close menu">
+            <i class="fas fa-times"></i>
+        </button>
+        <ul class="mobile-nav-links">
+            <li><a href="#games">GAMES</a></li>
+            <li><a href="#technologies">TECHNOLOGIES</a></li>
+            <li><a href="#features">FEATURES</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#stats">STATS</a></li>
+            <li><a href="https://www.odu.edu/academics/programs/undergraduate/game-studies-design">CONTACT</a></li>
+        </ul>
+    </div>
+    
+    <!-- Header Section -->
+    <header>
+        <div class="header-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-eyebrow"><i class="fas fa-university"></i> Old Dominion University</div>
+                <h1 class="hero-title">Game Mechanics <span>333</span></h1>
+                <p class="hero-subtitle">Explore 2D and 3D game prototypes created by our talented ODU students using Unity. Spring 2025 semester showcase.</p>
+                <a href="#games" class="cta-button"><i class="fas fa-gamepad"></i> View Student Games</a>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Games Section -->
+    <section id="games">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title"><i class="fas fa-trophy"></i> Featured Games</h2>
+                <p class="section-intro">Browse through these innovative game prototypes developed by our talented students in just 8 weeks during Spring 2025</p>
+            </div>
+            
+            <div class="games-grid">
+                <!-- Game Card 1 -->
+                <div class="game-card">
+                    <img src="images/games/ParkerDavis/Project27.jpg" alt="Project27 gameplay screenshot" class="game-thumbnail">
+                    <div class="game-overlay"></div>
+                    <div class="game-info">
+                        <h3 class="game-title">Project27</h3>
+                        <p class="student-name"><i class="fas fa-user"></i> Parker Davis</p>
+                        <div class="game-badges">
+                            <span class="game-badge">2D Platformer</span>
+                            <span class="game-badge">Indie Developer</span>
+                        </div>
+                        <p class="game-description">This atmospheric side-scrolling action game features a dark industrial setting with menacing mechanical enemies against crimson brick walls.</p>
+                        <a href="games/ParkerDavis.html" class="view-details-button"><i class="fas fa-gamepad"></i> View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Game Card 2 -->
+                <div class="game-card">
+                    <img src="images/games/CalebAllen/EscapeTheLab.jpg" alt="EscapeTheLab gameplay screenshot" class="game-thumbnail">
+                    <div class="game-overlay"></div>
+                    <div class="game-info">
+                        <h3 class="game-title">Escape The Lab</h3>
+                        <p class="student-name"><i class="fas fa-user"></i> Caleb Allen</p>
+                        <div class="game-badges">
+                            <span class="game-badge">2D Platformer</span>
+                            <span class="game-badge">Indie Developer</span>
+                        </div>
+                        <p class="game-description">This minimalist platformer features a white character navigating stone platforms. .</p>
+                        <a href="games/CalebAllen.html" class="view-details-button"><i class="fas fa-gamepad"></i> View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Game Card 3 -->
+                <div class="game-card">
+                    <img src="images/games/NedSmith/NinjaFrog.jpg" alt="Gravity Shift gameplay screenshot" class="game-thumbnail">
+                    <div class="game-overlay"></div>
+                    <div class="game-info">
+                        <h3 class="game-title">Ninja Frog</h3>
+                        <p class="student-name"><i class="fas fa-user"></i> Ned Smith</p>
+                        <div class="game-badges">
+                            <span class="game-badge">2D Platformer</span>
+                            <span class="game-badge">Indie Developer</span>
+                        </div>
+                        <p class="game-description">A platformer starring a green frog character with a headband navigating through a light blue environment.</p>
+                        <a href="games/NedSmith.html" class="view-details-button"><i class="fas fa-gamepad"></i> View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Game Card 4 -->
+                <div class="game-card">
+                    <img src="images/games/PrestonSherman/Frog.jpg" alt="Frog gameplay screenshot" class="game-thumbnail">
+                    <div class="game-overlay"></div>
+                    <div class="game-info">
+                        <h3 class="game-title">Frog</h3>
+                        <p class="student-name"><i class="fas fa-user"></i> Preston Sherman</p>
+                        <div class="game-badges">
+                            <span class="game-badge">2D Platformer</span>
+                            <span class="game-badge">Indie Developer</span>
+                        </div>
+                        <p class="game-description">A platformer featuring a green frog character facing off against powerful enemies.</p>
+                        <a href="games/PrestonSherman.html" class="view-details-button"><i class="fas fa-gamepad"></i> View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Game Card 5 -->
+                <div class="game-card">
+                    <img src="images/games/JoshPhillips/SlapShot.jpg" alt="Echo Chamber gameplay screenshot" class="game-thumbnail">
+                    <div class="game-overlay"></div>
+                    <div class="game-info">
+                        <h3 class="game-title">Slap Shot</h3>
+                        <p class="student-name"><i class="fas fa-user"></i> Josh Phillips</p>
+                        <div class="game-badges">
+                            <span class="game-badge">3D FPS</span>
+                            <span class="game-badge">Indie Developer</span>
+                        </div>
+                        <p class="game-description">A first-person shooter with a targeting system highlighting an enemy in the distance. The mission objective "ELIMINATE ALL THE ENEMIES" </p>
+                        <a href="games/JoshPhillips.html" class="view-details-button"><i class="fas fa-gamepad"></i> View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Game Card 6 -->
+                <div class="game-card">
+                    <img src="images/games/DavidFlowers/WizardFishin.jpg" alt="Quantum Loop gameplay screenshot" class="game-thumbnail">
+                    <div class="game-overlay"></div>
+                    <div class="game-info">
+                        <h3 class="game-title">Wizard Fishin</h3>
+                        <p class="student-name"><i class="fas fa-user"></i> David Flowers</p>
+                        <div class="game-badges">
+                            <span class="game-badge">2D Top-Down</span>
+                            <span class="game-badge">Indie Developer</span>
+                        </div>
+                        <p class="game-description">A top-down action/adventure game where the main character navigates around a vibrant green environment filled with trees and mushrooms.</p>
+                        <a href="games/DavidFlowers.html" class="view-details-button"><i class="fas fa-gamepad"></i> View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Game Card 7 -->
+                <div class="game-card">
+                    <img src="images/games/EricJensen/Jensen.jpg" alt="Shadow Tactics gameplay screenshot" class="game-thumbnail">
+                    <div class="game-overlay"></div>
+                    <div class="game-info">
+                        <h3 class="game-title">Jensen</h3>
+                        <p class="student-name"><i class="fas fa-user"></i> Eric Jensen</p>
+                        <div class="game-badges">
+                            <span class="game-badge">2D Platformer</span>
+                            <span class="game-badge">Indie Developer</span>
+                        </div>
+                        <p class="game-description">This classic platformer shows a small white character features earthtone platforms with grass tops against a teal background..</p>
+                        <a href="games/EricJensen.html" class="view-details-button"><i class="fas fa-gamepad"></i> View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Game Card 8 -->
+                <div class="game-card">
+                    <img src="images/games/JaydenAlexander/SundayOdyssey.jpg" alt="Fusion Core gameplay screenshot" class="game-thumbnail">
+                    <div class="game-overlay"></div>
+                    <div class="game-info">
+                        <h3 class="game-title">Sunday Odyssey</h3>
+                        <p class="student-name"><i class="fas fa-user"></i> Jayden Alexander</p>
+                        <div class="game-badges">
+                            <span class="game-badge">2D Top-Down</span>
+                            <span class="game-badge">Indie Developer</span>
+                        </div>
+                        <p class="game-description">An RPG-style game featuring a red-haired character outside a detailed cottage with wooden fencing.</p>
+                        <a href="games/JaydenAlexander.html" class="view-details-button"><i class="fas fa-gamepad"></i> View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Game Card 9 -->
+                <div class="game-card">
+                    <img src="images/games/GlennDennison/GetToTheWell.jpg" alt="Cyber Runner gameplay screenshot" class="game-thumbnail">
+                    <div class="game-overlay"></div>
+                    <div class="game-info">
+                        <h3 class="game-title">Get To The Well</h3>
+                        <p class="student-name"><i class="fas fa-user"></i> Glenn Dennison</p>
+                        <div class="game-badges">
+                            <span class="game-badge">2D Platformer</span>
+                            <span class="game-badge">Indie Developer</span>
+                        </div>
+                        <p class="game-description">A side-scrolling platformer with fantasy elements showing characters on floating islands with a beautiful cloudy backdrop.</p>
+                        <a href="games/GlennDennison.html" class="view-details-button"><i class="fas fa-gamepad"></i> View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Game Card 10 -->
+                <div class="game-card">
+                    <img src="images/games/IsaiahAdkinson/LonelyLife.jpg" alt="Vortex Combat gameplay screenshot" class="game-thumbnail">
+                    <div class="game-overlay"></div>
+                    <div class="game-info">
+                        <h3 class="game-title">Lonely Life</h3>
+                        <p class="student-name"><i class="fas fa-user"></i> Isaiah Adkinson</p>
+                        <div class="game-badges">
+                            <span class="game-badge">2D Top-Down</span>
+                            <span class="game-badge">Indie Developer</span>
+                        </div>
+                        <p class="game-description">A top-down shooter that uses vortex mechanics to pull enemies and projectiles into powerful whirlpools.</p>
+                        <a href="games/IsaiahAdkinson.html" class="view-details-button"><i class="fas fa-gamepad"></i> View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Game Card 11 -->
+                <div class="game-card">
+                    <img src="images/games/NikolasAllGood/Bastion.jpg" alt="Frost & Fire gameplay screenshot" class="game-thumbnail">
+                    <div class="game-overlay"></div>
+                    <div class="game-info">
+                        <h3 class="game-title">Bastion</h3>
+                        <p class="student-name"><i class="fas fa-user"></i> Nikolas AllGood</p>
+                        <div class="game-badges">
+                            <span class="game-badge">2D Top-Down</span>
+                            <span class="game-badge">Indie Developer</span>
+                        </div>
+                        <p class="game-description">An enchanting side-scrolling adventure with hand-crafted visuals .</p>
+                        <a href="games/NikolasAllGood.html" class="view-details-button"><i class="fas fa-gamepad"></i> View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Game Card 12 -->
+                <div class="game-card">
+                    <img src="images/games/MaddieMolen/GravestonePuzzle.jpg" alt="Techno Clash gameplay screenshot" class="game-thumbnail">
+                    <div class="game-overlay"></div>
+                    <div class="game-info">
+                        <h3 class="game-title">Gravestone Puzzle</h3>
+                        <p class="student-name"><i class="fas fa-user"></i> Maddie Molen</p>
+                        <div class="game-badges">
+                            <span class="game-badge">2D Top-Down</span>
+                            <span class="game-badge">Indie Developer</span>
+                        </div>
+                        <p class="game-description">A mesmerizing bird's-eye view experience where artistry and gameplay blend seamlessly across an intricately designed world.</p>
+                        <a href="games/MaddieMolen.html" class="view-details-button"><i class="fas fa-gamepad"></i> View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Game Card 13 -->
+                <div class="game-card">
+                    <img src="images/games/LucasWatts/Lucas.jpg" alt="Orbital Defense gameplay screenshot" class="game-thumbnail">
+                    <div class="game-overlay"></div>
+                    <div class="game-info">
+                        <h3 class="game-title">Lucas</h3>
+                        <p class="student-name"><i class="fas fa-user"></i> Lucas Watts</p>
+                        <div class="game-badges">
+                            <span class="game-badge">2D Platformer</span>
+                            <span class="game-badge">Indie Developer</span>
+                        </div>
+                        <p class="game-description">A top-down shooter where projectiles and shields orbit around the player, creating dynamic combat scenarios.</p>
+                        <a href="games/LucasWatts.html" class="view-details-button"><i class="fas fa-gamepad"></i> View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Game Card 14 -->
+                <div class="game-card">
+                    <img src="images/games/JackFick/CatRun.jpg" alt="Spirit Guardian gameplay screenshot" class="game-thumbnail">
+                    <div class="game-overlay"></div>
+                    <div class="game-info">
+                        <h3 class="game-title">Cat Run</h3>
+                        <p class="student-name"><i class="fas fa-user"></i> Jack Fick</p>
+                        <div class="game-badges">
+                            <span class="game-badge">2D Platformer</span>
+                            <span class="game-badge">Indie Developer</span>
+                        </div>
+                        <p class="game-description">A meticulously crafted world where every frame tells a story as you navigate its elegant challenges.</p>
+                        <a href="games/JackFick.html" class="view-details-button"><i class="fas fa-gamepad"></i> View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Game Card 15 -->
+                <div class="game-card">
+                    <img src="images/games/CraigWarrick/Zombie.jpg" alt="Mech Commander gameplay screenshot" class="game-thumbnail">
+                    <div class="game-overlay"></div>
+                    <div class="game-info">
+                        <h3 class="game-title">Zombie</h3>
+                        <p class="student-name"><i class="fas fa-user"></i> Craig Warrick</p>
+                        <div class="game-badges">
+                            <span class="game-badge">3D FPS</span>
+                            <span class="game-badge">Indie Developer</span>
+                        </div>
+                        <p class="game-description">An immersive overhead adventure where perspective becomes art, drawing you into its intricately designed universe.</p>
+                        <a href="games/CraigWarrick.html" class="view-details-button"><i class="fas fa-gamepad"></i> View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Game Card 16 -->
+                <div class="game-card">
+                    <img src="images/games/MichaelLannamann/Bugs.jpg" alt="Dimension Drift gameplay screenshot" class="game-thumbnail">
+                    <div class="game-overlay"></div>
+                    <div class="game-info">
+                        <h3 class="game-title">Bugs</h3>
+                        <p class="student-name"><i class="fas fa-user"></i> Michael Lannamann</p>
+                        <div class="game-badges">
+                            <span class="game-badge">2D Platformer</span>
+                            <span class="game-badge">Bugs</span>
+                        </div>
+                        <p class="game-description">An artistic canvas in motion, where each level unfolds like a painting you can traverse with pixel-perfect precision.</p>
+                        <a href="games/MichaelLannamann.html" class="view-details-button"><i class="fas fa-gamepad"></i> View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Technologies Section -->
+    <section id="technologies">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title"><i class="fas fa-tools"></i> Technologies Used</h2>
+                <p class="section-intro">Our students master these industry-standard tools and technologies to create their 2D shooting games</p>
+            </div>
+            
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fab fa-unity"></i>
+                    </div>
+                    <h3 class="tech-title">Unity</h3>
+                    <p class="tech-description">Industry-standard game engine used to create 60% of all mobile games and 50% of all PC games</p>
+                </div>
+                
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="tech-title">C# Programming</h3>
+                    <p class="tech-description">Object-oriented programming with a focus on game mechanics, AI behaviors, and optimization</p>
+                </div>
+                
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3 class="tech-title">2D Art Pipeline</h3>
+                    <p class="tech-description">Sprite creation, animation, and implementation using industry workflows</p>
+                </div>
+                
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3 class="tech-title">Tilemaps & Level Design</h3>
+                    <p class="tech-description">Efficient level creation using Unity's Tilemap system and Rule Tiles</p>
+                </div>
+                
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 class="tech-title">Particle Systems</h3>
+                    <p class="tech-description">Creating dynamic visual effects for weapons, explosions, and environmental elements</p>
+                </div>
+                
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-volume-up"></i>
+                    </div>
+                    <h3 class="tech-title">Audio Integration</h3>
+                    <p class="tech-description">Implementation of sound effects and music using Unity's Audio System</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Engine Features Section -->
+    <section id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title"><i class="fas fa-cogs"></i> Unity Engine Features</h2>
+                <p class="section-intro">Our students develop hands-on expertise with these essential Unity features</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h3 class="feature-title">2D Physics Engine</h3>
+                    <ul class="feature-list">
+                        <li>Rigidbody2D components</li>
+                        <li>Collider implementations</li>
+                        <li>Force-based movement</li>
+                        <li>Collision filtering</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <h3 class="feature-title">Animation System</h3>
+                    <ul class="feature-list">
+                        <li>Sprite animation</li>
+                        <li>Animation controllers</li>
+                        <li>Animation transitions</li>
+                        <li>Event triggers</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3 class="feature-title">Input Systems</h3>
+                    <ul class="feature-list">
+                        <li>Responsive controls</li>
+                        <li>Custom input mapping</li>
+                        <li>Multi-platform support</li>
+                        <li>Event-based inputs</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 class="feature-title">Visual Effects</h3>
+                    <ul class="feature-list">
+                        <li>Particle systems</li>
+                        <li>Trail renderers</li>
+                        <li>Line renderers</li>
+                        <li>Screen-space effects</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title"><i class="fas fa-info-circle"></i> About Game Mechanics 333</h2>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/about/classroom.jpg" alt="Game design class at Old Dominion University">
+                </div>
+                <div class="about-text">
+                    <p>Game Mechanics 333 is a course in the <a href="https://www.odu.edu/academics/programs/undergraduate/game-studies-design" target="_blank">Game Studies and Design (B.S.)</a> program at Old Dominion University in Virginia, USA. This Spring 2025 portfolio showcases prototypes developed by students in just 8 weeks under the instruction of Dineshkumar, Lecturer.</p>
+                    
+                    <p>Students learn essential skills including 2D animation, physics simulation, user interface design, and game mechanics implementation. Each student develops a complete game prototype using Unity and C# programming.</p>
+                    
+                    <p>These projects represent the application of core game design principles while exploring innovative mechanics within the shooting genre. All games are available for download.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Stats Section -->
+    <section id="stats">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title"><i class="fas fa-chart-bar"></i> Course Statistics</h2>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number" data-value="8">8</div>
+                    <div class="stat-label"><i class="fas fa-calendar-alt"></i> Weeks</div>
+                </div>
+                
+                <div class="stat-item">
+                    <div class="stat-number" data-value="16">16</div>
+                    <div class="stat-label"><i class="fas fa-user-graduate"></i> Students</div>
+                </div>
+                
+                <div class="stat-item">
+                    <div class="stat-number" data-value="16">16</div>
+                    <div class="stat-label"><i class="fas fa-gamepad"></i> Game Prototypes</div>
+                </div>
+                
+                <div class="stat-item">
+                    <div class="stat-number" data-value="2025">2025</div>
+                    <div class="stat-label"><i class="fas fa-graduation-cap"></i> Spring Semester</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-logo">GAME 333</div>
+            
+            <div class="footer-links">
+                <a href="#games">Games</a>
+                <a href="#technologies">Technologies</a>
+                <a href="#features">Features</a>
+                <a href="#about">About</a>
+                <a href="#stats">Stats</a>
+                <a href="https://www.odu.edu/academics/programs/undergraduate/game-studies-design">Contact</a>
+                <a href="https://www.odu.edu/academics/programs/undergraduate/game-studies-design" target="_blank">ODU Game Studies</a>
+            </div>
+            
+            <div class="social-links">
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+
+            <!-- Note about assets -->
+            <p class="assets-note">
+                <strong>Note:</strong> The student projects showcased on this website utilize assets from free and open sources such as 
+                <a href="https://itch.io/" target="_blank">itch.io</a>, 
+                <a href="https://assetstore.unity.com/" target="_blank">Unity Asset Store</a>, and other free asset websites like 
+                <a href="https://opengameart.org/" target="_blank">OpenGameArt</a> and 
+                <a href="https://kenney.nl/" target="_blank">Kenney.nl</a>. These assets are used for educational purposes only.
+            </p>
+
+            <!-- Disclaimer -->
+            <p class="disclaimer">
+                <strong>Disclaimer:</strong> The content on this website is for educational purposes only. Old Dominion University and the Game Mechanics 333 course do not claim ownership of any third-party assets used in the student projects. All rights to the assets belong to their respective creators. If you have any concerns regarding the use of assets, please contact us immediately.
+            </p>
+            
+            <p class="copyright">© 2025 Game Mechanics 333 - Dineshkumar, Lecturer. Old Dominion University. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
